@@ -1,8 +1,9 @@
 # James and his friend
 
 "I am currently changing and modifying all the codes that I made two years ago. The codes will look better with more efficiency.
-The updated codes will be re-uploaded as soon as I finishes.
-Thank you so much!"
+If you would like to see my new codes, please check my another branch and you should be able to see it! (It has not been done yet, though)
+If you want to play the game, run "RUN.bat" file in master branch!
+Thank you very much!"
 
 
 
