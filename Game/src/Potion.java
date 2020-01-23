@@ -14,6 +14,7 @@ public class Potion {
     Potion(String name){
         this.name = name;
     }
+
     public String toString() {
         return name;
     }
