@@ -93,7 +93,6 @@ public class Main implements Serializable {
             System.out.println("1. Yes, I'd like to continue.");
             System.out.println("2. No, I'd like to restart.");
             introAsk1();
-
         } else {
             introAsk();
         }
