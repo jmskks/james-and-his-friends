@@ -33,7 +33,7 @@ public class Main implements Serializable {
     static Character byungsoo = new Byungsoo();
 
     static Character boss1 = new Enemy1(1650, 80, 1000, 4000, "Owner");
-    static Character boss2 = new Enemy1(785000, 120, 5000, 5000, "Pervert");
+    static Character boss2 = new Enemy1(785000, 120, 5000, 5000, "Stranger");
     static Potion hpp = new Potion("hpp");
     static Potion mpp = new Potion("mpp");
 
@@ -3019,7 +3019,7 @@ public class Main implements Serializable {
             sc.nextLine();
 
         } else {
-            System.out.println("** You beat the Pervert!");
+            System.out.println("** You beat the Stranger!");
             sc.nextLine();
 
             vegasEnd();
