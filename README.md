@@ -23,6 +23,7 @@ While working on this project, I learned a lot of important skills, such as how 
 such as which features to add to make it more enjoyable for my friends, how character’s attributes (such as “HP” and “ATT”) should be calculated to balance the level of difficulty, and what stories should be added.
 
 Here a detail of my code that used in the game:
+
 •	Important concepts that are used in the code:
 * i)	Switch: choosing actions with user’s input (integer).
 * ii)	Inheritance: Character (parent), Friends and Enemies (children).
@@ -37,11 +38,10 @@ Here a detail of my code that used in the game:
 * v)	Level-up system - once user characters reach certain “EXP”, the character levels up and user can increase the character’s attribute.
 * vi)	Actions of a user or enemy are dependent on probability with Random Generator:
 
--	    Flipping a coin at the beginning of a fight to decide who attacks first between a user and a group of enemies.
--   	Attacking an enemy, escaping a fight, or blocking an enemy’s attack.
--	    Occurrence of a critical attack by user characters or enemies.
--   	Lotto chance: when a character levels up, a user gets to roll a dice. If the result is the same number as a number I have set, the user gets an extra point to increase the character’s attribute. 
-
+1.  Flipping a coin at the beginning of a fight to decide who attacks first between a user and a group of enemies.
+1.  Attacking an enemy, escaping a fight, or blocking an enemy’s attack.
+1.  Occurrence of a critical attack by user characters or enemies.
+1.  Lotto chance: when a character levels up, a user gets to roll a dice. If the result is the same number as a number I have set, the user gets an extra point to increase the character’s attribute. 
 
 After finishing building the game, I distributed to my friends and they loved it. It is a very important experience for me that helped me to move on to the next step of Computer Science field.
 I hope you have enjoyed reading this. Thank you very much for visiting my github!
