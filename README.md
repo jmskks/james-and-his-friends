@@ -25,15 +25,16 @@ such as which features to add to make it more enjoyable for my friends, how char
 Here a detail of my code that used in the game:
 
 •	Important concepts that are used in the code:
-* i)	Switch: choosing actions with user’s input (integer).
+* i)	Switch: choosing User’s actions based on user’s input.
 * ii)	Inheritance: Character (parent), Friends and Enemies (children).
-* iii)Overriding: Methods named same are coded differently depending on Friends class or Enemies class.
-* iv)	Overloading: Methods named same are chosen depending on its arguments and parameters. 
+* iii)	Overriding: Methods that named same are coded differently in the Friends class and in the Enemy class.
+* iv)	Overloading: Methods that named same are chosen depending on its arguments and parameters. 
+
 
 •	Implementation of key features:
 * i)	Choosing characters (HashMap) - User’s input (key) and corresponding characters (value).
-* ii)	Writing into files (Array) - Saves into files (how far I have played by checking Boolean, which characters I chose and how much money or how many of HP/MP potions I have..).
-* iii)	Reading files - Loads a saved game or texts of game stories about how I met the characters.
+* ii)	Writing into files (Array) - it saves into files (how far I have played, which characters I chose and how much money or how many of HP/MP potions I have..).
+* iii)	Reading files - it loads a saved game or texts of game stories during the game.
 * iv)	Acquiring money or HP/MP potions from defeated enemy.
 * v)	Level-up system - once user characters reach certain “EXP”, the character levels up and user can increase the character’s attribute.
 * vi)	Actions of a user or enemy are dependent on probability with Random Generator:
