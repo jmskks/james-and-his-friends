@@ -23,22 +23,24 @@ While working on this project, I learned a lot of important skills, such as how 
 such as which features to add to make it more enjoyable for my friends, how character’s attributes (such as “HP” and “ATT”) should be calculated to balance the level of difficulty, and what stories should be added.
 
 Here a detail of my code that used in the game:
-•	Important concepts that are used in the code: 
-i)	Switch: choosing actions with user’s input (integer).
-ii)	Inheritance: Character (parent), Friends and Enemies (children).
-iii)Overriding: Methods named same are coded differently depending on Friends class or Enemies class.
-iv)	Overloading: Methods named same are chosen depending on its arguments and parameters. 
+•	Important concepts that are used in the code:
+* i)	Switch: choosing actions with user’s input (integer).
+* ii)	Inheritance: Character (parent), Friends and Enemies (children).
+* iii)Overriding: Methods named same are coded differently depending on Friends class or Enemies class.
+* iv)	Overloading: Methods named same are chosen depending on its arguments and parameters. 
+
 •	Implementation of key features:
-i)	Choosing characters (HashMap) - User’s input (key) and corresponding characters (value).
-ii)	Writing into files (Array) - Saves into files (how far I have played by checking Boolean, which characters I chose and how much money or how many of HP/MP potions I have..).
-iii)	Reading files - Loads a saved game or texts of game stories about how I met the characters.
-iv)	Acquiring money or HP/MP potions from defeated enemy.
-v)	Level-up system - once user characters reach certain “EXP”, the character levels up and user can increase the character’s attribute.
-vi)	Actions of a user or enemy are dependent on probability with Random Generator:
--	Flipping a coin at the beginning of a fight to decide who attacks first between a user and a group of enemies.
--	Attacking an enemy, escaping a fight, or blocking an enemy’s attack.
--	Occurrence of a critical attack by user characters or enemies.
--	Lotto chance: when a character levels up, a user gets to roll a dice. If the result is the same number as a number I have set, the user gets an extra point to increase the character’s attribute. 
+* i)	Choosing characters (HashMap) - User’s input (key) and corresponding characters (value).
+* ii)	Writing into files (Array) - Saves into files (how far I have played by checking Boolean, which characters I chose and how much money or how many of HP/MP potions I have..).
+* iii)	Reading files - Loads a saved game or texts of game stories about how I met the characters.
+* iv)	Acquiring money or HP/MP potions from defeated enemy.
+* v)	Level-up system - once user characters reach certain “EXP”, the character levels up and user can increase the character’s attribute.
+* vi)	Actions of a user or enemy are dependent on probability with Random Generator:
+
+-	    Flipping a coin at the beginning of a fight to decide who attacks first between a user and a group of enemies.
+-   	Attacking an enemy, escaping a fight, or blocking an enemy’s attack.
+-	    Occurrence of a critical attack by user characters or enemies.
+-   	Lotto chance: when a character levels up, a user gets to roll a dice. If the result is the same number as a number I have set, the user gets an extra point to increase the character’s attribute. 
 
 
 After finishing building the game, I distributed to my friends and they loved it. It is a very important experience for me that helped me to move on to the next step of Computer Science field.
