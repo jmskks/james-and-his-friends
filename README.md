@@ -1,4 +1,4 @@
-# James and his friends
+# Seattle Guys
 
 "I am currently modifying all the codes that I made two years ago. The codes will look better with more efficiency.
 If you would like to see my new codes, please check my another branch and you should be able to see it! (It has not been done yet, though)
